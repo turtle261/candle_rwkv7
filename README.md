@@ -1,6 +1,6 @@
 # candle_rwkv7
 
-A Rust implementation and tooling for RWKV v7 models using the Candle tensor library.
+A Rust implementation and tooling for RWKV v7 models using the Candle library by Huggingface--See: https://github.com/huggingface/candle.
 This repository provides:
 - A Rust-native model implementation (src/models/rwkv7.rs) compatible with the RWKV v7 reference.
 - Tools and examples to convert PyTorch .pth checkpoints to safetensors, run interactive chat, and verify numerical parity against the official Python reference.
